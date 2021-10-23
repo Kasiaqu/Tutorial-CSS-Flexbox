@@ -15,20 +15,19 @@ body{
 .flex-container{
     display: flex;
     background: #fff;
+    flex-wrap: wrap-reverse;
 }
 .box{
     height: 100px;
-    width: 320px;
+    width: 200px;
+    flex-grow: 1;
 }
 .one{
     background: red;
-    flex-shrink: 4;
 }
 .two{
     background:blue;
-    flex-shrink: 5;
 }
 .three{
     background: green;
-    flex-shrink: 6;
 }
